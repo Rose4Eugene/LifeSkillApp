@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Life Skill App</string>
+    <string name="head">Life Skill Canvas for Pre and Primary Schools</string>
+    <string name="pre_education">PRE EDUCATION</string>
+    <string name="primary_education">PRIMARY EDUCATION</string>
+    <string name="grade1">Grade One</string>
+    <string name="grade2">Grade Two</string>
+    <string name="grade3">Grade Three</string>
+    <string name="grade4">Grade Four</string>
+    <string name="grade5">Grade Five</string>
+    <string name="grade6">Grade Six</string>
+    <string name="grade7">Grade Seven</string>
+    <string name="back">Back</string>
+    <string name="home">Home</string>
+
+
+    <!--    preGradeOneSubjects-->
+
+    <string name="pre_one_sub1">Subject One</string>
+    <string name="pre_one_sub2">Subject two</string>
+    <string name="pre_one_sub3">Subject three</string>
+    <string name="pre_one_sub4">Subject four</string>
+    <string name="pre_one_sub5">Subject five</string>
+
+
+    <!--    preGradeTwoSubjects-->
+
+    <string name="pre_two_sub1">Subject One</string>
+    <string name="pre_two_sub2">Subject two</string>
+    <string name="pre_two_sub3">Subject three</string>
+    <string name="pre_two_sub4">Subject four</string>
+    <string name="pre_two_sub5">Subject five</string>
+
+<!--    preGradeThreeSubjects-->
+
+    <string name="pre_three_sub1">Subject One</string>
+    <string name="pre_three_sub2">Subject two</string>
+    <string name="pre_three_sub3">Subject three</string>
+    <string name="pre_three_sub4">Subject four</string>
+    <string name="pre_three_sub5">Subject five</string>
+
+
+</resources>

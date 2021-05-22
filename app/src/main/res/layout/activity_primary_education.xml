@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--scrollview-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrimaryEducation">
+
+
+
+    <!-- A CardView that contains a TextView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_pri"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:id="@+id/grade1_pri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/grade1"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="10dp"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view2_pri"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:id="@+id/grade2_pri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/grade2"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view3_pri"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:id="@+id/grade3_pri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20sp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/grade3"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view4_pri"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        card_view:cardCornerRadius="15dp">
+
+
+        <TextView
+            android:id="@+id/grade4_pri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20sp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/grade4"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view5_pri"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:id="@+id/grade5_pri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/grade5"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20sp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view6_pri"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:id="@+id/grade6_pri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/grade6"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view7_pri"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:id="@+id/grade7_pri"
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20sp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/grade7"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="5dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_margin="1dp"
+            android:background="@drawable/round_edges_button"/>
+        <Button
+            android:id="@+id/button2"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_edges_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
